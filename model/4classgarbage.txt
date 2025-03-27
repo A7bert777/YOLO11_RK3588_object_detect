@@ -1,4 +1,0 @@
-clean
-unclean
-liquid
-wire
