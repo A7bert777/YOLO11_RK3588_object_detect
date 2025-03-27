@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rdparty/libsndfile/include/sndfile.h
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+
+/home/firefly/yolo11_github/utils/audio_utils.c
+stdio.h
+-
+stdlib.h
+-
+sndfile.h
+-
+math.h
+-
+audio_utils.h
+/home/firefly/yolo11_github/utils/audio_utils.h
+
+/home/firefly/yolo11_github/utils/audio_utils.h
+
