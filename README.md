@@ -1,4 +1,4 @@
-# **YOLO11_RK3588_object_detect **
+# YOLO11_RK3588_object_detect 
 
 # **目标检测仓库**
 
