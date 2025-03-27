@@ -1,4 +1,6 @@
-**YOLO11_RK3588_object_detect 目标检测仓库**
+# **YOLO11_RK3588_object_detect **
+
+# **目标检测仓库**
 
 1.项目代码介绍
 
@@ -42,4 +44,4 @@ yolo11/rknn_lib 是瑞芯微官方动态库librknnrt.so所在位置
 
 CSDN地址：[【YOLO11部署至RK3588】模型训练→转换RKNN→开发板部署_yolov11 rk3588-CSDN博客](https://blog.csdn.net/A_l_b_ert/article/details/143814080?spm=1001.2014.3001.5501)
 
-QQ咨询（not free）：2506245294
+QQ咨询（not free，除非你点了小星星）：2506245294
