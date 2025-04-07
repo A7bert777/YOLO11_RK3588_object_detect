@@ -109,9 +109,9 @@ void processImagesInFolder(const std::string& folderPath, rknn_app_context_t* rk
 
 int main(int argc, char **argv)
 {
-    const std::string modelPath = "/home/firefly/yolo11_github/model/500img_yolo11_yaml_relu_300epoch_best.rknn";  
-    const std::string imageFolder = "/home/firefly/yolo11_github/inputimage";  
-    const std::string outputFolder = "/home/firefly/yolo11_github/outputimage"; 
+    const std::string modelPath = "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/model/500img_yolo11_yaml_relu_300epoch_best.rknn";  
+    const std::string imageFolder = "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/inputimage";  
+    const std::string outputFolder = "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/outputimage"; 
 
     int ret;
     rknn_app_context_t rknn_app_ctx;

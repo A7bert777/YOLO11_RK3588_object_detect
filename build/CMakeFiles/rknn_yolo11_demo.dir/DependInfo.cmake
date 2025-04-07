@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/firefly/yolo11_github/src/main.cc" "/home/firefly/yolo11_github/build/CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o"
-  "/home/firefly/yolo11_github/src/postprocess.cc" "/home/firefly/yolo11_github/build/CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o"
-  "/home/firefly/yolo11_github/src/yolo11.cc" "/home/firefly/yolo11_github/build/CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/main.cc" "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/postprocess.cc" "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/yolo11.cc" "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,9 +22,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/firefly/yolo11_github/build/utils.out/CMakeFiles/imageutils.dir/DependInfo.cmake"
-  "/home/firefly/yolo11_github/build/utils.out/CMakeFiles/fileutils.dir/DependInfo.cmake"
-  "/home/firefly/yolo11_github/build/utils.out/CMakeFiles/imagedrawing.dir/DependInfo.cmake"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/utils.out/CMakeFiles/imageutils.dir/DependInfo.cmake"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/utils.out/CMakeFiles/fileutils.dir/DependInfo.cmake"
+  "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/utils.out/CMakeFiles/imagedrawing.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

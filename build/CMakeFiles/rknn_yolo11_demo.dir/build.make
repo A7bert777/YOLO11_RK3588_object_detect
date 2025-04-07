@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/yolo11_github
+CMAKE_SOURCE_DIR = /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/yolo11_github/build
+CMAKE_BINARY_DIR = /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rknn_yolo11_demo.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/rknn_yolo11_demo.dir/flags.make
 
 CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o: CMakeFiles/rknn_yolo11_demo.dir/flags.make
 CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/yolo11_github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o -c /home/firefly/yolo11_github/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.o -c /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/main.cc
 
 CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/yolo11_github/src/main.cc > CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/main.cc > CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.i
 
 CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/yolo11_github/src/main.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/main.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/main.cc.s
 
 CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o: CMakeFiles/rknn_yolo11_demo.dir/flags.make
 CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o: ../src/postprocess.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/yolo11_github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o -c /home/firefly/yolo11_github/src/postprocess.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.o -c /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/postprocess.cc
 
 CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/yolo11_github/src/postprocess.cc > CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/postprocess.cc > CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.i
 
 CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/yolo11_github/src/postprocess.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/postprocess.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/postprocess.cc.s
 
 CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o: CMakeFiles/rknn_yolo11_demo.dir/flags.make
 CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o: ../src/yolo11.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/yolo11_github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o -c /home/firefly/yolo11_github/src/yolo11.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.o -c /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/yolo11.cc
 
 CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/yolo11_github/src/yolo11.cc > CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/yolo11.cc > CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.i
 
 CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/yolo11_github/src/yolo11.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/src/yolo11.cc -o CMakeFiles/rknn_yolo11_demo.dir/src/yolo11.cc.s
 
 # Object files for target rknn_yolo11_demo
 rknn_yolo11_demo_OBJECTS = \
@@ -115,7 +115,7 @@ rknn_yolo11_demo: utils.out/libimagedrawing.a
 rknn_yolo11_demo: ../3rdparty/jpeg_turbo/Linux/aarch64/libturbojpeg.a
 rknn_yolo11_demo: ../3rdparty/librga/Linux/aarch64/librga.a
 rknn_yolo11_demo: CMakeFiles/rknn_yolo11_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/firefly/yolo11_github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable rknn_yolo11_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable rknn_yolo11_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rknn_yolo11_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/rknn_yolo11_demo.dir/clean:
 .PHONY : CMakeFiles/rknn_yolo11_demo.dir/clean
 
 CMakeFiles/rknn_yolo11_demo.dir/depend:
-	cd /home/firefly/yolo11_github/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefly/yolo11_github /home/firefly/yolo11_github /home/firefly/yolo11_github/build /home/firefly/yolo11_github/build /home/firefly/yolo11_github/build/CMakeFiles/rknn_yolo11_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles/rknn_yolo11_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rknn_yolo11_demo.dir/depend
 

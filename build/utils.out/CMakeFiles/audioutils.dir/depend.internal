@@ -3,5 +3,5 @@
 
 utils.out/CMakeFiles/audioutils.dir/audio_utils.c.o
  ../3rdparty/libsndfile/include/sndfile.h
- /home/firefly/yolo11_github/utils/audio_utils.c
- /home/firefly/yolo11_github/utils/audio_utils.h
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/audio_utils.c
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/audio_utils.h

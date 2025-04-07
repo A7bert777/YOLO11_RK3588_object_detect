@@ -14,7 +14,7 @@ stdint.h
 sys/types.h
 -
 
-/home/firefly/yolo11_github/utils/audio_utils.c
+/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/audio_utils.c
 stdio.h
 -
 stdlib.h
@@ -24,7 +24,7 @@ sndfile.h
 math.h
 -
 audio_utils.h
-/home/firefly/yolo11_github/utils/audio_utils.h
+/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/audio_utils.h
 
-/home/firefly/yolo11_github/utils/audio_utils.h
+/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/audio_utils.h
 

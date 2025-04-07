@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/firefly/yolo11_github/include -I/home/firefly/yolo11_github/utils -I/home/firefly/yolo11_github/3rdparty/libsndfile/include 
+C_INCLUDES = -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/include -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/3rdparty/libsndfile/include 
 

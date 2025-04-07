@@ -6,5 +6,5 @@ CXX_FLAGS =   -pthread
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/firefly/yolo11_github/include -I/home/firefly/yolo11_github -I/home/firefly/yolo11_github/utils -I/home/firefly/yolo11_github/3rdparty/stb_image -I/home/firefly/yolo11_github/3rdparty/jpeg_turbo/include -I/home/firefly/yolo11_github/3rdparty/librga/include 
+CXX_INCLUDES = -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/include -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/3rdparty/stb_image -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/3rdparty/jpeg_turbo/include -I/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/3rdparty/librga/include 
 

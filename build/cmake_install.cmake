@@ -1,4 +1,4 @@
-# Install script for directory: /home/firefly/yolo11_github
+# Install script for directory: /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./rknn_yolo11_demo"
          RPATH "$ORIGIN/../lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/home/firefly/yolo11_github/build/rknn_yolo11_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/rknn_yolo11_demo")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./rknn_yolo11_demo" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./rknn_yolo11_demo")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./rknn_yolo11_demo"
-         OLD_RPATH "/home/firefly/yolo11_github/rknn_lib:"
+         OLD_RPATH "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/rknn_lib:"
          NEW_RPATH "$ORIGIN/../lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./rknn_yolo11_demo")
@@ -58,17 +58,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/firefly/yolo11_github/../model/bus.jpg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/../model/bus.jpg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/firefly/yolo11_github/../model/coco_80_labels_list.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/model" TYPE FILE FILES "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/../model/coco_80_labels_list.txt")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/firefly/yolo11_github/build/3rdparty.out/cmake_install.cmake")
-  include("/home/firefly/yolo11_github/build/utils.out/cmake_install.cmake")
+  include("/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/3rdparty.out/cmake_install.cmake")
+  include("/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/utils.out/cmake_install.cmake")
 
 endif()
 
@@ -80,5 +80,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/firefly/yolo11_github/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

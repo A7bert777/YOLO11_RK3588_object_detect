@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/yolo11_github
+CMAKE_SOURCE_DIR = /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/yolo11_github/build
+CMAKE_BINARY_DIR = /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/yolo11_github/build/CMakeFiles /home/firefly/yolo11_github/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/yolo11_github/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

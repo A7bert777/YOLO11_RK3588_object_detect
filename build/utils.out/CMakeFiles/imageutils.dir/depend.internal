@@ -15,7 +15,7 @@ utils.out/CMakeFiles/imageutils.dir/image_utils.c.o
  ../3rdparty/librga/include/rga.h
  ../3rdparty/stb_image/stb_image.h
  ../3rdparty/stb_image/stb_image_write.h
- /home/firefly/yolo11_github/utils/common.h
- /home/firefly/yolo11_github/utils/file_utils.h
- /home/firefly/yolo11_github/utils/image_utils.c
- /home/firefly/yolo11_github/utils/image_utils.h
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/common.h
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/file_utils.h
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/image_utils.c
+ /home/firefly/GitHUb测试/YOLO11_RK3588_object_detect/utils/image_utils.h
